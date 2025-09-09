@@ -1,0 +1,21 @@
+header {
+   padding: 14px 0;
+   border-radius: 0 0 32px 32px;
+    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav__list {
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+
+

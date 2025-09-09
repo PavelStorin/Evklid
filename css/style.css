@@ -1,0 +1,58 @@
+@import './normalize.css';
+
+@import './header.css';
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+  min-width: 320px;
+}
+
+main {
+    
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1800px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section-offset {
+
+}
