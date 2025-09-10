@@ -1,0 +1,31 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 80px;
+    background-image: url('../img/backhero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 32px;
+}
+
+.hero__title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 800;
+    font-size: 70px;
+    color: #fff;
+    max-width: 840px;
+    line-height: auto;
+}
+
+.hero__desc {
+    margin: 0;
+    margin-bottom: 90px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    max-width: 840px;
+    line-height: auto;
+}
+
