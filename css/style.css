@@ -1,5 +1,7 @@
 @import './normalize.css';
 
+@import './root.css';
+
 @import './header.css';
 
 @import './hero.css';
