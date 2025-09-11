@@ -6,6 +6,8 @@
 
 @import './hero.css';
 
+@import './about-us.css';
+
 @font-face {
     font-family: 'Montserrat';
     src: url('../font/montserrat_regular.woff2') format('woff2'),
@@ -103,19 +105,9 @@ ul {
     width: 100%;
 }
 
-.section-offset {}
-
-.btn {
-    border: none;
-    background-color: #fff;
-    padding: 0;
-    font-weight: 700;
-    font-size: 23px;
-    text-align: center;
-    color: #fff;
-    padding: 25px 39px;
-    border-radius: 16px;
-    background: #f90;
-    width: fit-content;
-    line-height: auto;
+.title-section {
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--black-color);
+    margin: 0;
 }
