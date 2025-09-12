@@ -23,5 +23,15 @@
     background: var(--orange-color);
     width: fit-content;
     height: fit-content;
-    line-height: auto;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+.title-section {
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--black-color);
+    display: block;
+    margin: 0;
 }
