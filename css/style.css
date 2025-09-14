@@ -8,6 +8,8 @@
 
 @import './about-us.css';
 
+@import './stages.css';
+
 @font-face {
     font-family: 'Montserrat';
     src: url('../font/montserrat_regular.woff2') format('woff2'),
@@ -89,7 +91,7 @@ body {
 }
 
 main {
-    padding: 0 75px;
+    padding: 0 60px;
 }
 
 ul {
@@ -100,7 +102,7 @@ ul {
 
 .container {
     max-width: 1800px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
-    width: 100%;
 }

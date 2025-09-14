@@ -1,0 +1,63 @@
+.stages {
+    margin-bottom: 100px;
+}
+
+.stages__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stages__title {
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.left__desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: var(--black-color);
+    margin-bottom: 18px;
+}
+
+.left__btns {
+    display: flex;
+    gap: 32px;
+}
+
+.btns__link1 {
+    padding: 20px 39px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btns__link2 {
+    padding: 19px 38px;
+    background-color: transparent;
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid var(--black-color);
+    border-radius: 16px;
+}
+
+.content__left {
+    display: flex;
+    flex-direction: column;
+    max-width: 758px;
+    width: 100%;
+}
+
+.content__img {
+    background-image: url(../img/stages-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 32px;
+    max-width: 870px;
+    width: 100%;
+}
+
