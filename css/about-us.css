@@ -9,9 +9,7 @@
 }
 
 .about-us__desc {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 200%;
+    font: var(--item-desc-desktop);
     color: var(--black-color);
     margin: 0;
     margin-bottom: 50px;
@@ -28,7 +26,7 @@
     max-width: 433px;
 }
 
-.article__btn {
+.main__container .article__btn {
     background-color: transparent;
     border: 3px solid var(--orange-color);
     font-size: 16px;
@@ -40,7 +38,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 622px;
     border-radius: 32px;
     display: flex;
     align-items: flex-end;
@@ -60,7 +57,7 @@
 .article__img {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 165px 190px;
+    background-size: contain;
     height: 165px;
     width: 190px;
 }
@@ -74,18 +71,15 @@
 }
 
 .content__title {
-    font-weight: 700;
-    font-size: 24px;
-    color: #000;
+    font: var(--item-title-desktop);
+    color: var(--black-color);
     margin: 0;
     margin-bottom: 8px;
 }
 
 .content__desc {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 200%;
-    color: #000;
+    font: var(--item-desc-desktop);
+    color: var(--black-color);
     margin: 0;
     max-width: 450px;
 }
@@ -106,8 +100,7 @@
     width: 100%;
 }
 
-.about-us__title {
+.main__container .about-us__title {
     margin-bottom: 20px;
+    color: var(--black-color);
 }
-
-/* ewewewew */

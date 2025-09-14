@@ -7,16 +7,14 @@
     justify-content: space-between;
 }
 
-.stages__title {
-    margin: 0;
+.main__container .stages__title {
     margin-bottom: 32px;
+    color: var(--black-color);
 }
 
 .left__desc {
     margin: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 200%;
+    font: var(--item-desc-desktop);
     color: var(--black-color);
     margin-bottom: 18px;
 }
@@ -26,14 +24,14 @@
     gap: 32px;
 }
 
-.btns__link1 {
+.main__container .btns__link1 {
     padding: 20px 39px;
     font-weight: 700;
     font-size: 16px;
     text-align: center;
 }
 
-.btns__link2 {
+.main__container .btns__link2 {
     padding: 19px 38px;
     background-color: transparent;
     color: var(--black-color);

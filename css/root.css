@@ -8,30 +8,10 @@
      --grey-color: #666;
      --dark-grey-color: #414141;
      --black-color: #000; 
-}
-
-.btn {
-    border: none;
-    background-color: var(--white-color);
-    padding: 0;
-    font-weight: 700;
-    font-size: 23px;
-    text-align: center;
-    color: var(--white-color);
-    padding: 25px 39px;
-    border-radius: 16px;
-    background: var(--orange-color);
-    width: fit-content;
-    height: fit-content;
-    line-height: normal;
-    cursor: pointer;
-}
-
-
-.title-section {
-    font-weight: 400;
-    font-size: 48px;
-    color: var(--black-color);
-    display: block;
-    margin: 0;
+     --gap: 32px;
+     --font-family-base: 'Montserrat', sans-serif;
+     --section-title-desktop: normal 400 48px/normal var(--font-family-base);
+     --item-desc-desktop: normal 400 16px/200% var(--font-family-base);
+     --item-title-desktop: normal 700 24px/normal var(--font-family-base);
+     --btn-font-desktop: normal 700 23px/normal var(--font-family-base);
 }

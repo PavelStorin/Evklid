@@ -1,0 +1,23 @@
+.main__container .questions__title {
+    margin-bottom: 32px;
+}
+
+.item__desc {
+    margin: 0;
+    font: var(--item-desc-desktop);
+    color: var(--black-color);
+}
+
+.questions__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+.list__item {
+    padding:  65px 60px;
+    border: 1px solid var(--light-grey-color);
+    border-radius: 32px;
+    width: 100%;
+    max-width: 568px;
+}
