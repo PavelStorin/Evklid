@@ -109,7 +109,3 @@
 .about-us__title {
     margin-bottom: 20px;
 }
-
-.blocks-pos {
-    width: calc((100% - 32px) / 2);
-}
