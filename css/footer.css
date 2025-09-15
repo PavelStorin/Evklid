@@ -1,0 +1,137 @@
+.footer {
+    background-color: var(--black-color);
+    padding: 50px 0;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__form {
+    max-width: 570px;
+    width: 100%;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    max-width: 363px;
+    width: 100%;
+}
+
+.footer__link {
+    font: var(--headfoot-desc-desktop);
+    color: var(--light-grey-color);
+    line-height: 32px;
+}
+
+.left__logo {
+    margin-bottom: 20px;
+}
+
+.left__icons {
+    margin-top: auto;
+    display: flex;
+    gap: 25px;
+}
+
+footer .form__title {
+    color: transparent;
+    color: var(--light-grey-color);
+    margin-bottom: 25px;
+}
+
+.checkbox__text {
+    font: var( --item-desc-desktop);
+    color: var(--light-grey-color);
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 32px;
+}
+
+.form__input input,textarea {
+    font: var(--item-desc-desktop);
+    color: var(--light-grey-color);
+    background-color: var(--dark-grey-color);
+    border-radius: 16px;
+    border: none;
+    padding: 14px 24px;
+}
+
+.item__text {
+    min-height: 150px;
+    resize: none;
+}
+
+footer .bootom__fotter {
+    font-size: 16px;
+    padding: 19px 52px;
+    text-align: center;
+}
+
+.footer__right {
+    font: var(--item-desc-desktop);
+    color: var(--light-grey-color);
+    max-width: 363px;
+    width: 100%;
+    margin: 0;
+    margin-top: 73px;
+}
+
+
+.bootom__checkbox {
+    user-select: none;
+    cursor: pointer;
+}
+
+.checkbox__custom {
+    position: absolute;
+    appearance: none;
+}
+
+.checkbox__text {
+    position: relative;
+    padding-left: 18px;
+}
+
+.checkbox__text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--light-grey-color);
+    transform: translateY(-50%);
+}
+
+.checkbox__text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    transform: translateY(-50%);
+    background-image: url(../img/checkbox.svg);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.checkbox__custom:checked + .checkbox__text::after {
+    opacity: 1;
+}
+
+.form__bootom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

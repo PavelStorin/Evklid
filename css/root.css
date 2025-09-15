@@ -10,8 +10,9 @@
      --black-color: #000; 
      --gap: 32px;
      --font-family-base: 'Montserrat', sans-serif;
-     --section-title-desktop: normal 400 48px/normal var(--font-family-base);
-     --item-desc-desktop: normal 400 16px/200% var(--font-family-base);
-     --item-title-desktop: normal 700 24px/normal var(--font-family-base);
-     --btn-font-desktop: normal 700 23px/normal var(--font-family-base);
+     --section-title-desktop: normal 400 48px/100% var(--font-family-base);
+     --item-desc-desktop: normal 400 16px/32px var(--font-family-base);
+     --item-title-desktop: normal 700 24px/32px var(--font-family-base);
+     --btn-font-desktop: normal 700 23px/100% var(--font-family-base);
+     --headfoot-desc-desktop: normal 600 18px/100% var(--font-family-base);
 }

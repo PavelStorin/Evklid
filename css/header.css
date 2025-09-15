@@ -22,4 +22,17 @@ header {
     font-weight: 600;
     font-size: 18px;
     color: var(--black-color);
+    border-bottom: transparent ;
+    transition: border-bottom-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+    border-bottom: 2px solid var(--orange-color);
+    padding-bottom: 7px;
+}
+
+.nav__link:focus {
+    border-bottom: none;
+    outline: 2px solid var(--orange-color);
+    outline-offset: 5px;
 }
