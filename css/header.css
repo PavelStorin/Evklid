@@ -9,13 +9,20 @@ header {
 .header__container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+
+.header__logo {
+    margin-right: auto;
 }
 
 .nav__list {
     display: flex;
     gap: 85px;
     align-items: center;
+}
+
+.header__nav {
+    display: flex;
 }
 
 .nav__link {
@@ -32,7 +39,48 @@ header {
 }
 
 .nav__link:focus {
-    border-bottom: none;
     outline: 2px solid var(--orange-color);
     outline-offset: 5px;
+}
+
+.nav__link:active {
+    color: var(--dark-orange-color);
+    border-bottom: 2px solid var(--dark-orange-color);
+    padding-bottom: 7px;
+    outline: none;
+}
+
+.nav__icon {
+    stroke: var(--black-color); 
+    transition: stroke 0.3s ease-in-out;  
+}
+
+.nav__icon:hover {
+    stroke: var(--orange-color);
+}
+
+.nav__icon:focus {
+    outline: 2px solid var(--orange-color);
+    outline-offset: 4px;    
+}
+
+.nav__icon:active {
+    outline: none;
+    stroke: var(--black-color);
+}
+
+.hero__btn {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hero__btn:hover {
+    background-color: var(--light-orange-color);
+}
+
+.hero__btn:focus {
+    background-color: var(--light-orange-color);
+}
+
+.hero__btn:active {
+    background-color: var(--dark-orange-color);
 }

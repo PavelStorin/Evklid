@@ -24,6 +24,22 @@
     font: var(--headfoot-desc-desktop);
     color: var(--light-grey-color);
     line-height: 32px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer__link:hover {
+    color: var(--orange-color);
+}
+
+.footer__link:focus {
+    color: var(--light-grey-color);
+    outline: 2px solid var(--orange-color);
+    outline-offset: 5px;
+}
+
+.footer__link:active {
+    color: var(--dark-orange-color);
+    outline: none;
 }
 
 .left__logo {
@@ -83,7 +99,6 @@ footer .bootom__fotter {
     margin-top: 73px;
 }
 
-
 .bootom__checkbox {
     user-select: none;
     cursor: pointer;
@@ -134,4 +149,61 @@ footer .bootom__fotter {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.icons__footer {
+    fill: var(--grey-color);
+    transition: fill 0.3s ease-in-out;
+}
+
+.icons__footer:hover {
+    fill: var(--orange-color);
+}
+
+.icons__footer:focus {
+    fill: var(--grey-color);
+    outline: 2px solid var(--orange-color);
+    outline-offset: 5px;
+}
+
+.icons__footer:active {
+    fill: var(--dark-orange-color);
+    outline: none;
+}
+
+footer .bootom__fotter {
+    font-size: 16px;
+    padding: 19px 52px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bootom__fotter:hover {
+    background-color: var(--light-orange-color);
+}
+
+.bootom__fotter:focus {
+    background-color: var(--light-orange-color);
+}
+
+.bootom__fotter:active {
+    background-color: var(--dark-orange-color);
+}
+
+.form__input input, textarea {
+    transition: ;
+}
+
+input:hover, textarea:hover {
+    background-color: var(--grey-color);
+}
+
+input:focus, textarea:focus {
+    background-color: var(--grey-color);
+    outline: none;
+}
+
+input:active, textarea:active {
+    background-color: var(--grey-color);
+    color: var(--white-color);
 }

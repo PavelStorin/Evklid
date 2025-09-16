@@ -26,13 +26,6 @@
     max-width: 433px;
 }
 
-.main__container .article__btn {
-    background-color: transparent;
-    border: 3px solid var(--orange-color);
-    font-size: 16px;
-    padding: 19px 38px;
-}
-
 .left__article {
     background-image: url(../img/about-us-png.jpg);
     background-repeat: no-repeat;
@@ -103,4 +96,25 @@
 .main__container .about-us__title {
     margin-bottom: 20px;
     color: var(--black-color);
+}
+
+.main__container .article__btn {
+    background-color: transparent;
+    border: 3px solid var(--orange-color);
+    font-size: 16px;
+    padding: 19px 38px;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.article__btn:hover {
+    background-color: var(--orange-color);
+}
+
+.article__btn:focus {
+    background-color: var(--orange-color);
+}
+
+.article__btn:active {
+    background-color: var(--dark-orange-color);
+    border-color: var(--dark-orange-color);
 }
