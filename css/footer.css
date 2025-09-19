@@ -191,7 +191,7 @@ footer .bootom__fotter {
 }
 
 .form__input input, textarea {
-    transition: ;
+    transition: background-color 0.3s ease-in-out;
 }
 
 input:hover, textarea:hover {

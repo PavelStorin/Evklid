@@ -1,4 +1,5 @@
 :root {
+     /* COLORS */
      --orange-color: #f90;
      --light-orange-color: #ffb84d;
      --dark-orange-color:  #e1670e;
@@ -8,7 +9,9 @@
      --grey-color: #666;
      --dark-grey-color: #414141;
      --black-color: #000; 
+     /* SETTINGS */
      --gap: 32px;
+     /* FONTS */
      --font-family-base: 'Montserrat', sans-serif;
      --section-title-desktop: normal 400 48px/100% var(--font-family-base);
      --item-desc-desktop: normal 400 16px/32px var(--font-family-base);
