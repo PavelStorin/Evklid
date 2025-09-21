@@ -70,22 +70,6 @@ header {
     stroke: var(--black-color);
 }
 
-.hero__btn {
-    transition: background-color 0.3s ease-in-out;
-}
-
-.hero__btn:hover {
-    background-color: var(--light-orange-color);
-}
-
-.hero__btn:focus {
-    background-color: var(--light-orange-color);
-}
-
-.hero__btn:active {
-    background-color: var(--dark-orange-color);
-}
-
 @media (max-width: 1280px) {
     .header__logo {
         width: 150px;
@@ -94,6 +78,7 @@ header {
 
     .header {
         padding: 26px 35px;
+        margin-bottom: 40px;
     }
 }
 
@@ -138,6 +123,7 @@ header {
       padding: 17px  0 79px;  
       position: relative;
       overflow: hidden;
+      margin-bottom: 20px;
     }
     
     .nav__list {

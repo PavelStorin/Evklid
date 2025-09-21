@@ -5,7 +5,6 @@
 .about-us__info-block {
     display: flex;
     gap: 32px;
-    flex-wrap: wrap;
 }
 
 .about-us__desc {
@@ -26,6 +25,10 @@
     max-width: 433px;
 }
 
+.article__img-vis {
+    visibility: hidden;
+}
+
 .left__article {
     background-image: url(../img/about-us-png.jpg);
     background-repeat: no-repeat;
@@ -36,6 +39,7 @@
     align-items: flex-end;
     max-width: 868px;
     width: 100%;
+    min-height: 622px;
 }
 
 .article__content {
@@ -68,6 +72,8 @@
     color: var(--black-color);
     margin: 0;
     margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .content__desc {
@@ -75,6 +81,8 @@
     color: var(--black-color);
     margin: 0;
     max-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .right__article {
@@ -88,6 +96,7 @@
 .info-block__right {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 32px;
     max-width: 870px;
     width: 100%;
@@ -117,4 +126,85 @@
 .article__btn:active {
     background-color: var(--dark-orange-color);
     border-color: var(--dark-orange-color);
+}
+
+@media (max-width: 1520px) {
+    .about-us__info-block {
+        flex-wrap: wrap;
+    }
+
+    .about-us__info-block {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+    }
+
+    .left__article {
+        min-height: 640px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    .left__article,
+    .info-block__right {
+        max-width: 100%;
+    }
+
+    .right__article {
+        padding: 65px 77px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .right__article {
+        gap: 16px;
+        padding: 35px 40px;
+        align-items: center;
+    }
+
+    .article__img {
+        height: 99px;
+        width: 114px;
+    }
+}
+
+@media (max-width: 767px) {
+    .left__article {
+        background-image: none;
+        
+    }
+
+    .article__img-vis {
+        background-image: url(../img/about-us-png.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        visibility: visible;
+        border-radius: 32px;
+        max-width: 868px;
+        width: 100%;
+        min-height: 622px;
+        margin-bottom: 8px;
+    }
+
+    .article__content {
+        background: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .article__desc {
+        font: var(--item-desc-desktop);
+        color: var(--black-color);
+        margin-bottom: 12px;
+    }
+
+    main .article__btn {
+        color: var(--orange-color);
+        border: var(--orange-color);
+    }
 }
